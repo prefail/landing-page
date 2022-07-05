@@ -81,6 +81,22 @@ body {
   text-align: right;
 }
 
+.hero .container{
+  display: flex;
+  padding: 2rem 3rem ;
+  align-items: center;
+  margin: 3em 0;
+  gap: 2rem;
+}
+
+.hero .button {
+  width: 6rem;
+  height: 1.5rem;
+}
+
+.hero .main {
+  margin: 0;
+}
 
 
 /* TODO intro image squashing issue */
