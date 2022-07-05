@@ -40,6 +40,7 @@ body {
   align-items: center;
 }
 
-
-
-/* TODO add gutters to both sides of site*/
+body {
+  width: 60%;
+  margin: 0 auto;
+}
