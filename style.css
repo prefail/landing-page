@@ -1,3 +1,7 @@
+* {
+  outline: magenta solid 1px;
+}
+
 .gallery .image {
   height: 10rem;
   width: 10rem;
@@ -68,5 +72,15 @@ body {
 .gallery .element {
   max-width: 10rem;
 }
+
+.quote {
+  padding: 3rem 1rem;
+}
+
+.quote .signature {
+  text-align: right;
+}
+
+
 
 /* TODO intro image squashing issue */
