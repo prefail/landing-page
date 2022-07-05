@@ -45,3 +45,28 @@ body {
   align-items: center;
 }
 
+.gallery {
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.gallery .title {
+  text-align: center;
+  margin: 0; 
+}
+
+.gallery .container {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.gallery .element {
+  max-width: 10rem;
+}
+
+/* TODO intro image squashing issue */
