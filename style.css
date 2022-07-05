@@ -1,11 +1,11 @@
 .gallery .image {
-  height: 10em;
-  width: 10em;
+  height: 10rem;
+  width: 10rem;
 }
 
 .intro .image {
-  height: 18em;
-  width: 32em;
+  height: 18rem;
+  width: 32rem;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 #site-header {
   display: flex;
   justify-content: space-between;
-  padding: 2em 10em;
+  padding: 2rem 10rem;
 }
 
 .navigation {
@@ -42,4 +42,4 @@ body {
 
 
 
-/* TODO change em to rem, add gutters to both sides of site*/
+/* TODO add gutters to both sides of site*/
