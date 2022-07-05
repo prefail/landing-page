@@ -8,8 +8,7 @@
 }
 
 .intro .image {
-  height: 18rem;
-  width: 32rem;
+  max-width: 100%;
 }
 
 body {
@@ -102,4 +101,3 @@ body {
   text-align: center;
   padding: 0.5rem 0;
 }
-/* TODO intro image squashing issue */
