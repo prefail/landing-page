@@ -31,3 +31,15 @@ body {
   display: flex;
   gap: 1.5rem;
 }
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* TODO change em to rem, add gutters to both sides of site*/
