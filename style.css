@@ -23,7 +23,7 @@ button {
   border: 0;
   font-size: 1rem;
   font-weight: 700;
-  }
+}
 
 #header {
   display: flex;
@@ -52,7 +52,7 @@ button {
   align-items: center;
 }
 
-.navigation li  a {
+.navigation li a {
   text-decoration: none;
   color: #0cedb1;
   font-weight: 900;
@@ -95,7 +95,7 @@ button {
 
 .intro button:hover {
   background-color: #ef476f;
-  border:#eee solid 3px;
+  border: #eee solid 3px;
   color: #eee;
 }
 
@@ -150,12 +150,12 @@ button {
   background-position: center;
 }
 
-.gallery .image.lemon{
+.gallery .image.lemon {
   background-image: url(/images/fire.jpg);
   background-attachment: fixed;
 }
 
-.gallery .image.watermelon{
+.gallery .image.watermelon {
   background-image: url(/images/water.jpg);
   background-attachment: fixed;
   background-size: 30%;
@@ -191,13 +191,13 @@ button {
   background-color: #118ab2;
 }
 
-.hero .container{
+.hero .container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 3rem;
-  padding: 3rem 3rem ;
+  padding: 3rem 3rem;
   background-color: #eee;
   border-radius: 1rem;
 }
@@ -213,11 +213,10 @@ button {
 .hero button {
   background-color: #118ab2;
   color: #eee;
-
 }
 
 .hero button:hover {
-  border:#118ab2 solid 3px;
+  border: #118ab2 solid 3px;
   color: #118ab2;
   background-color: #eee;
 }
