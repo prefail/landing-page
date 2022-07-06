@@ -15,17 +15,13 @@ body {
 }
 
 button {
-  background-image: url(images/northern-lights.png);
-  background-attachment: fixed;
   height: 3.5rem;
   width: 10rem;
   border-radius: 1rem;
   border: 0;
-  color: #e2e2e2;
   font-size: 1rem;
   font-weight: 700;
-  background-repeat:repeat-y;
-}
+  }
 
 #header {
   display: flex;
@@ -91,7 +87,13 @@ button {
 
 .intro button {
   margin-top: 1rem;
-  background-position: 40% 0%;
+  color: #ef476f;
+}
+
+.intro button:hover {
+  background-color: #ef476f;
+  border:#e2e2e2 solid 3px;
+  color: #e2e2e2;
 }
 
 .intro .image {
@@ -197,8 +199,15 @@ button {
   margin: 0;
 }
 
-.hero .button {
-  background-position: 50% 0%;
+.hero button {
+  color: #118ab2;
+  
+}
+
+.hero button:hover {
+  background-color: #118ab2;
+  border:#e2e2e2 solid 3px;
+  color: #e2e2e2;
 }
 
 #footer {
