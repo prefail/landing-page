@@ -95,7 +95,7 @@ button {
 }
 
 .intro .image {
-    width: 100%;
+  width: 100%;
   flex: auto;
   border-radius: 0.5rem;
 }
@@ -107,13 +107,13 @@ button {
   gap: 3rem;
   padding: 3rem 15% 5rem;
   background-color: #ffd166;
+  color: #444444;
 }
 
 .gallery .title {
   text-align: center;
   margin: 0;
   font-size: 2rem;
-  color: #444444;
 }
 
 .gallery .container {
@@ -165,10 +165,19 @@ button {
 .quote {
   padding: 7rem 20%;
   background-color: #06d6a0;
+  color: #e2e2e2;
+  font-style: italic;
+}
+
+.quote .text {
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 .quote .signature {
   text-align: right;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .hero {
