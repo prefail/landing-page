@@ -7,10 +7,6 @@
   width: 10rem;
 }
 
-.intro .image {
-  max-width: 100%;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -42,10 +38,19 @@ body {
 
 .intro {
   display: flex;
-  flex-wrap: wrap;
-  gap: 3rem;
+  /* flex-wrap: wrap; */
+  gap: 2rem;
   justify-content: center;
   align-items: center;
+}
+
+.intro .text {
+  flex: auto;
+}
+
+.intro .image {
+  flex: auto;
+  width: 100%;
 }
 
 .gallery {
