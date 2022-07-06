@@ -17,6 +17,8 @@ body {
 button {
   height: 3.5rem;
   width: 10rem;
+  min-height: 3.5rem;
+  min-width: 10rem;
   border-radius: 1rem;
   border: 0;
   font-size: 1rem;
@@ -185,7 +187,7 @@ button {
 }
 
 .hero {
-  padding: 5rem 15%;
+  padding: 5rem 15% 3rem;
   background-color: #118ab2;
 }
 
@@ -193,7 +195,8 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  flex-wrap: wrap;
+  gap: 3rem;
   padding: 3rem 3rem ;
   background-color: #eee;
   border-radius: 1rem;
