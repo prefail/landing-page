@@ -68,7 +68,7 @@ button {
 .intro .text {
   flex: auto;
   min-width: 40%;
-  color: #e2e2e2;
+  color: #eee;
 }
 
 .intro h1 {
@@ -88,12 +88,13 @@ button {
 .intro button {
   margin-top: 1rem;
   color: #ef476f;
+  background-color: #eee;
 }
 
 .intro button:hover {
   background-color: #ef476f;
-  border:#e2e2e2 solid 3px;
-  color: #e2e2e2;
+  border:#eee solid 3px;
+  color: #eee;
 }
 
 .intro .image {
@@ -167,7 +168,7 @@ button {
 .quote {
   padding: 7rem 20%;
   background-color: #06d6a0;
-  color: #e2e2e2;
+  color: #eee;
   font-style: italic;
   text-shadow: 0 0 5px #646464;
 }
@@ -193,7 +194,9 @@ button {
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  padding: 2rem 3rem ;
+  padding: 3rem 3rem ;
+  background-color: #eee;
+  border-radius: 1rem;
 }
 
 .hero .text {
@@ -205,19 +208,20 @@ button {
 }
 
 .hero button {
-  color: #118ab2;
+  background-color: #118ab2;
+  color: #eee;
 
 }
 
 .hero button:hover {
-  background-color: #118ab2;
-  border:#e2e2e2 solid 3px;
-  color: #e2e2e2;
+  border:#118ab2 solid 3px;
+  color: #118ab2;
+  background-color: #eee;
 }
 
 #footer {
   text-align: center;
   padding: 0.5rem 15%;
   background-color: #118ab2;
-  color: #e2e2e2;
+  color: #eee;
 }
