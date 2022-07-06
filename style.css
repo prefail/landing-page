@@ -2,11 +2,6 @@
   outline: magenta solid 1px;
 }
 
-.gallery .image {
-  height: 10rem;
-  width: 10rem;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -17,28 +12,28 @@ body {
   flex: 1;
 }
 
-#site-header {
+#header {
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 18%;
-  flex-wrap: wrap;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .navigation {
+  display: flex;
+  gap: 0.5rem;
   padding: 0;
   margin: 0;
-  list-style: none;
-  display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  list-style: none;
 }
 
 .intro {
   display: flex;
-  gap: 2rem;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
   padding: 3rem 15%;
 }
 
@@ -47,16 +42,16 @@ body {
 }
 
 .intro .image {
-  flex: auto;
   width: 100%;
+  flex: auto;
 }
 
 .gallery {
-  padding: 3rem 15%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 3rem;
+  padding: 3rem 15%;
 }
 
 .gallery .title {
@@ -75,6 +70,11 @@ body {
   max-width: 10rem;
 }
 
+.gallery .image {
+  height: 10rem;
+  width: 10rem;
+}
+
 .quote {
   padding: 3rem 20%;
 }
@@ -89,18 +89,18 @@ body {
 
 .hero .container{
   display: flex;
-  padding: 2rem 3rem ;
   align-items: center;
   gap: 2rem;
-}
-
-.hero .button {
-  width: 6rem;
-  height: 1.5rem;
+  padding: 2rem 3rem ;
 }
 
 .hero .main {
   margin: 0;
+}
+
+.hero .button {
+  height: 1.5rem;
+  width: 6rem;
 }
 
 #footer {
