@@ -109,7 +109,7 @@ button {
   gap: 3rem;
   padding: 3rem 15% 5rem;
   background-color: #ffd166;
-  color: #444444;
+  color: #292929;
 }
 
 .gallery .title {
@@ -169,6 +169,7 @@ button {
   background-color: #06d6a0;
   color: #e2e2e2;
   font-style: italic;
+  text-shadow: 0 0 5px #646464;
 }
 
 .quote .text {
@@ -195,13 +196,17 @@ button {
   padding: 2rem 3rem ;
 }
 
+.hero .text {
+  color: #292929;
+}
+
 .hero .main {
   margin: 0;
 }
 
 .hero button {
   color: #118ab2;
-  
+
 }
 
 .hero button:hover {
@@ -213,5 +218,6 @@ button {
 #footer {
   text-align: center;
   padding: 0.5rem 15%;
-  background-color: #1998c2;
+  background-color: #118ab2;
+  color: #e2e2e2;
 }
