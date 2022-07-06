@@ -1,4 +1,4 @@
-/* * {
+/*  {
   outline: magenta solid 1px;
 } */
 
@@ -12,6 +12,19 @@ body {
 
 .main {
   flex: 1;
+}
+
+button {
+  background-image: url(images/northern-lights.png);
+  background-attachment: fixed;
+  height: 3.5rem;
+  width: 10rem;
+  border-radius: 1rem;
+  border: 0;
+  color: #e2e2e2;
+  font-size: 1rem;
+  font-weight: 700;
+  background-repeat:repeat-y;
 }
 
 #header {
@@ -58,10 +71,31 @@ body {
 
 .intro .text {
   flex: auto;
+  min-width: 40%;
+  color: #e2e2e2;
+}
+
+.intro h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.intro p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.intro .img-container {
+  flex: auto;
+}
+
+.intro button {
+  margin-top: 1rem;
+  background-position: 40% 0%;
 }
 
 .intro .image {
-  width: 100%;
+    width: 100%;
   flex: auto;
 }
 
@@ -122,8 +156,7 @@ body {
 }
 
 .hero .button {
-  height: 1.5rem;
-  width: 6rem;
+  background-position: 50% 0%;
 }
 
 #footer {
