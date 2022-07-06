@@ -97,6 +97,7 @@ button {
 .intro .image {
     width: 100%;
   flex: auto;
+  border-radius: 0.5rem;
 }
 
 .gallery {
@@ -104,13 +105,15 @@ button {
   flex-direction: column;
   justify-content: space-between;
   gap: 3rem;
-  padding: 5rem 15%;
+  padding: 3rem 15% 5rem;
   background-color: #ffd166;
 }
 
 .gallery .title {
   text-align: center;
-  margin: 0; 
+  margin: 0;
+  font-size: 2rem;
+  color: #444444;
 }
 
 .gallery .container {
@@ -121,12 +124,42 @@ button {
 }
 
 .gallery .element {
-  max-width: 10rem;
+  max-width: 15rem;
 }
 
 .gallery .image {
-  height: 10rem;
-  width: 10rem;
+  width: 100%;
+  border-radius: 20%;
+}
+
+.gallery .image.apple {
+  background-image: url(/images/space.jpg);
+  background-attachment: fixed;
+  background-position: 50% -10%;
+}
+
+.gallery .image.banana {
+  background-image: url(/images/worms.jpg);
+  background-attachment: fixed;
+  background-size: 30%;
+  background-position: center;
+}
+
+.gallery .image.lemon{
+  background-image: url(/images/fire.jpg);
+  background-attachment: fixed;
+}
+
+.gallery .image.watermelon{
+  background-image: url(/images/water.jpg);
+  background-attachment: fixed;
+  background-size: 30%;
+}
+
+.gallery .text {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1rem;
 }
 
 .quote {
