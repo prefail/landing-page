@@ -31,7 +31,7 @@ button {
   padding: 1rem 18% 3rem;
   gap: 1rem;
   flex-wrap: wrap;
-  background-color: #ef476f;
+  background-color: #ef475b;
 }
 
 #header .logo {
@@ -54,7 +54,7 @@ button {
 
 .navigation li a {
   text-decoration: none;
-  color: #0cedb1;
+  color: #f8eec7;
   font-weight: 900;
 }
 
@@ -64,7 +64,7 @@ button {
   align-items: center;
   gap: 2rem;
   padding: 3rem 15% 5rem;
-  background-color: #ef476f;
+  background-color: #ef475b;
 }
 
 .intro .text {
@@ -89,12 +89,12 @@ button {
 
 .intro button {
   margin-top: 1rem;
-  color: #ef476f;
+  color: #ef475b;
   background-color: #eee;
 }
 
 .intro button:hover {
-  background-color: #ef476f;
+  background-color: #ef475b;
   border: #eee solid 3px;
   color: #eee;
 }
@@ -169,7 +169,7 @@ button {
 
 .quote {
   padding: 7rem 20%;
-  background-color: #06d6a0;
+  background-color: #04c18f;
   color: #eee;
   font-style: italic;
   text-shadow: 0 0 5px #646464;
@@ -188,7 +188,7 @@ button {
 
 .hero {
   padding: 5rem 15% 3rem;
-  background-color: #118ab2;
+  background-color: #108fb9;
 }
 
 .hero .container {
