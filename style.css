@@ -211,19 +211,19 @@ button {
 }
 
 .hero button {
-  background-color: #118ab2;
+  background-color: #108fb9;
   color: #eee;
 }
 
 .hero button:hover {
-  border: #118ab2 solid 3px;
-  color: #118ab2;
+  border: #108fb9 solid 3px;
+  color: #108fb9;
   background-color: #eee;
 }
 
 #footer {
   text-align: center;
   padding: 0.5rem 15%;
-  background-color: #118ab2;
+  background-color: #108fb9;
   color: #eee;
 }
